@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Teste de HTML e CSS para avaliação de layout responsivo.">
+    <meta name="keywords" content="HTML, CSS, Layout Responsivo, SEO">
+    <title>Star Wars</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../estilos/style.css">
+    <link rel="stylesheet" href="../estilos/media.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu" />
+</head>
+
+<body>
+    <!--CABEÇALHO-->
+    <header>
+        <div class="top">
+            
+        </div>
+        
+
+        <nav class="menu">
+            <div class="logo">
+                <img src="../imagens/logo.jfif" alt="">
+            </div>
+            <span class="burguer" onclick="clickMenu()" >
+                |||
+                </span>
+             <ul class="menu-bar" id="itens">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Empresa</a></li>
+                <li><a href="#">Clientes</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+    <!--SLIDE-->
+    <section class="slide">
+        <div class="slides">
+            <div class="imagens">
+                <img src="../imagens/slide1.jfif" alt="Imagem1">
+            </div>
+            <div class="imagens">
+                <img src="../imagens/slide2.jfif" alt="Imagem2">
+            </div>
+        </div>
+
+        <button class="prev" aria-label="Slide anterior">&lt;</button>
+        <button class="next" aria-label="Próximo slide">&gt;</button>
+        <!--COLOCAR BOTAO-->
+    </section>
+
+    <!--PRINCIPAL-->
+    <main>
+        <section class="home-hero">
+            <div class="container-hero">
+                <article>
+                    <h1>Por dentro do Universo Star wars</h1>
+                    <p>
+                        George Lucas é reconhecido por sua visão inovadora, uso pioneiro de efeitos especiais e por criar um universo rico e detalhado que continua a cativar fãs de todas as idades. Sua influência no cinema e na cultura pop é imensurável.
+                    </p>
+                    <p>
+                        Star Wars é uma saga de ficção científica que se passa em uma galáxia distante, envolvendo temas como o conflito entre o bem e o mal, heroísmo, família e redenção. A série começou com o lançamento de Star Wars: Episódio IV – Uma Nova Esperança em 1977, seguido por mais dois filmes que formaram a trilogia original: O Império Contra-Ataca (1980) e O Retorno de Jedi (1983). Posteriormente, Lucas lançou uma trilogia de prequela (A Ameaça Fantasma, 1999; Ataque dos Clones, 2002; e A Vingança dos Sith, 2005), que explora os eventos anteriores à trilogia original. 
+                    </p>
+                    <p>
+                        A franquia expandiu-se para incluir séries de TV, livros, quadrinhos, videogames e parques temáticos, tornando-se uma das propriedades de entretenimento mais lucrativas e influentes da história.
+                    </p>
+                </article>
+
+                <aside>
+                    <div class="imagem-aside">
+                        <img src="../imagens/george lucas.jfif" alt="imagem3">
+                    </div>
+                </aside>
+            </div>
+        </section>
+
+        <section class="box-hero">
+            <h2>Fique por dentro!</h2>
+            <div class="box-container">
+                <article class="box">
+                    <div class="box-imagem">
+                        <img src="../imagens/box1.jfif" alt="imagem4">
+                    </div>
+                    <p><a href="https://www.disneyplus.com/pt-br/brand/star-wars" target="_blank">Filmes</a></p>
+                </article>
+
+                <article class="box">
+                    <div class="box-imagem">
+                        <img src="../imagens/box2.jfif" alt="imagem5">
+                    </div>
+                    <p><a href="https://www.comix.com.br/quadrinhos/star-wars.html?srsltid=AfmBOoqbhZ721xZvywySZTC0pVZzM1k-H-lpMiwtxe_pI6QKPC8GQyZQ" target="_blank">HQ's</a></p>
+                </article>
+
+                <article class="box">
+                    <div class="box-imagem">
+                        <img src="../imagens/box3.jfif" alt="imagem6">
+                    </div>
+                    <p><a href="https://www.disneyplus.com/pt-br/brand/star-wars" target="_blank">Séries</a></p>
+                </article>
+
+                <article class="box">
+                    <div class="box-imagem">
+                        <img src="../imagens/box4.jfif" alt="imagem7">
+                    </div>
+                    <p><a href="https://store.steampowered.com/bundle/2319/STAR_WARS_Complete_Collection/?l=brazilian" target="_blank">Jogos</a></p>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <!--RODAPÉ-->
+    <footer>
+        <p>Thais Menezes</p>
+        <nav>
+            <a href="https://www.linkedin.com/in/thais-menezes-19123023b/" target="_blank">Linkedin</a>
+            <a href="https://github.com/ttthamenezess" target="_blank">GitHub</a>
+        </nav>
+    </footer>
+    
+    <script src="script.js"></script>
+    
+</body>
+</html>
